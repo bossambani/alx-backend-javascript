@@ -13,7 +13,7 @@ class HolbertonCourse {
   // setter for the name
   set name(newName) {
     if (typeof newName !== 'string') {
-      throw TypeError('Name must be a string');
+        throw new TypeError('Name must be a string');
     }
     this._name = newName;
   }
@@ -26,7 +26,7 @@ class HolbertonCourse {
   // setter for the length
   set length(newLength) {
     if (typeof newLength !== 'number') {
-      throw TypeError('Length must be a number');
+        throw new TypeError('Length must be a number');
     }
     this._length = newLength;
   }
@@ -39,7 +39,7 @@ class HolbertonCourse {
   // setter for the students
   set students(newStudents) {
     if (!Array.isArray(newStudents)) {
-      throw TypeError('Students must be an array');
+        throw TypeError('Students must be an array');
     }
     this._students = newStudents;
   }
