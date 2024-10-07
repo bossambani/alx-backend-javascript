@@ -2,4 +2,4 @@
 package.json
 babel.config.js
 node_modules/
-*main.json
+*main.js
