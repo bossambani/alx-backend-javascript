@@ -1,6 +1,6 @@
 //function that prints in STDOUT the string argument
-const displayMessage = (Message) => {
-    console.log(Message);
+const displayMessage = (message) => {
+    console.log(message);
 };
 
 module.exports = displayMessage;
